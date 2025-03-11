@@ -40,7 +40,7 @@ public:
     /* Poller 通过函数接口来设置就绪事件 */
     int set_revents(int revt) { revents_ = revt; return revents_;}
     
-    
+
     /* 设置 fd 相应的状态 */
     void enableReading() { events_ |= kReadEvent; update();}
     void disableReading() { events_ &= ~kReadEvent;update();}

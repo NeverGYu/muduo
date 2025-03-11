@@ -29,7 +29,7 @@ public:
 
 protected:
     using ChannelMap = std::unordered_map<sockfd,Channel*>;
-    ChannelMap channels;
+    ChannelMap channels_;
 private:
     EventLoop* ownerLoop_; /* 定义事件所属的事件循环 */
 };

@@ -1,8 +1,18 @@
 [
 {
   "directory": "/home/gch/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/mymuduo.dir/_EpollPoller.cc.o -c \"/home/gch/muduo/ EpollPoller.cc\"",
+  "file": "/home/gch/muduo/ EpollPoller.cc"
+},
+{
+  "directory": "/home/gch/muduo/build",
   "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/mymuduo.dir/Channel.cc.o -c /home/gch/muduo/Channel.cc",
   "file": "/home/gch/muduo/Channel.cc"
+},
+{
+  "directory": "/home/gch/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/mymuduo.dir/CurrentThread.cc.o -c /home/gch/muduo/CurrentThread.cc",
+  "file": "/home/gch/muduo/CurrentThread.cc"
 },
 {
   "directory": "/home/gch/muduo/build",

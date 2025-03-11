@@ -153,6 +153,30 @@ Channel.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Channel.cc.s
 .PHONY : Channel.cc.s
 
+CurrentThread.o: CurrentThread.cc.o
+.PHONY : CurrentThread.o
+
+# target to build an object file
+CurrentThread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/CurrentThread.cc.o
+.PHONY : CurrentThread.cc.o
+
+CurrentThread.i: CurrentThread.cc.i
+.PHONY : CurrentThread.i
+
+# target to preprocess a source file
+CurrentThread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/CurrentThread.cc.i
+.PHONY : CurrentThread.cc.i
+
+CurrentThread.s: CurrentThread.cc.s
+.PHONY : CurrentThread.s
+
+# target to generate assembly for a file
+CurrentThread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/CurrentThread.cc.s
+.PHONY : CurrentThread.cc.s
+
 DefaultPoller.o: DefaultPoller.cc.o
 .PHONY : DefaultPoller.o
 
@@ -297,6 +321,30 @@ Timestamp.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Timestamp.cc.s
 .PHONY : Timestamp.cc.s
 
+_EpollPoller.o: _EpollPoller.cc.o
+.PHONY : _EpollPoller.o
+
+# target to build an object file
+_EpollPoller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/_EpollPoller.cc.o
+.PHONY : _EpollPoller.cc.o
+
+_EpollPoller.i: _EpollPoller.cc.i
+.PHONY : _EpollPoller.i
+
+# target to preprocess a source file
+_EpollPoller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/_EpollPoller.cc.i
+.PHONY : _EpollPoller.cc.i
+
+_EpollPoller.s: _EpollPoller.cc.s
+.PHONY : _EpollPoller.s
+
+# target to generate assembly for a file
+_EpollPoller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/_EpollPoller.cc.s
+.PHONY : _EpollPoller.cc.s
+
 muduo_server.o: muduo_server.cpp.o
 .PHONY : muduo_server.o
 
@@ -333,6 +381,9 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
 	@echo "... DefaultPoller.o"
 	@echo "... DefaultPoller.i"
 	@echo "... DefaultPoller.s"
@@ -351,6 +402,9 @@ help:
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"
+	@echo "... _EpollPoller.o"
+	@echo "... _EpollPoller.i"
+	@echo "... _EpollPoller.s"
 	@echo "... muduo_server.o"
 	@echo "... muduo_server.i"
 	@echo "... muduo_server.s"

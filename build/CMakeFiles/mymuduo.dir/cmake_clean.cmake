@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../lib/libmymuduo.so"
   "CMakeFiles/mymuduo.dir/Channel.cc.o"
   "CMakeFiles/mymuduo.dir/Channel.cc.o.d"
+  "CMakeFiles/mymuduo.dir/CurrentThread.cc.o"
+  "CMakeFiles/mymuduo.dir/CurrentThread.cc.o.d"
   "CMakeFiles/mymuduo.dir/DefaultPoller.cc.o"
   "CMakeFiles/mymuduo.dir/DefaultPoller.cc.o.d"
   "CMakeFiles/mymuduo.dir/EventLoop.cc.o"
@@ -15,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mymuduo.dir/Poller.cc.o.d"
   "CMakeFiles/mymuduo.dir/Timestamp.cc.o"
   "CMakeFiles/mymuduo.dir/Timestamp.cc.o.d"
+  "CMakeFiles/mymuduo.dir/_EpollPoller.cc.o"
+  "CMakeFiles/mymuduo.dir/_EpollPoller.cc.o.d"
   "CMakeFiles/mymuduo.dir/muduo_server.cpp.o"
   "CMakeFiles/mymuduo.dir/muduo_server.cpp.o.d"
 )

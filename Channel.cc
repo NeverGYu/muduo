@@ -32,14 +32,12 @@ void Channel::tie(const std::shared_ptr<void>& obj){
 /* 当改变 Channel 所表示 fd 的 events 事件后，update 负责在 poller 里面改变 fd 相应的事件 epoll_ctl */
 void Channel::update(){
     /* 通过 Channel 所属的 EventLoop ，调用 PPoller 的相应方法，注册fd的events事件 */
-    // add code
-    // loop_->updateChannel(this);
+    loop_->updateChannel(this);
 }
 
 /* 在 Channel 所属的 EventLoop 中，把当前的 Channel 删除掉 */
 void Channel::remove(){
-    // add code
-    // loop_->removeChannel();
+    loop_->removeChannel(this);
 }
 
 void Channel::handleEvent(Timestamp receiveTime){
