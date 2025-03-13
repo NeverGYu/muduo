@@ -64,9 +64,6 @@ public:
 
     void send(const std::string &buf);
 
-    void shutdown();
-    
-
 private:
     enum StateE{
         kDisconnected,
