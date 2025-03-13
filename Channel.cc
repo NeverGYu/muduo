@@ -23,7 +23,9 @@ Channel::~Channel(){
 
 }
 
-/* Channel 的 tie 方法什么时候调用过？ */
+/* Channel 的 tie 方法什么时候调用过？TcpConnection => Channel
+ * 防止 TcpConnection 在 Channel 处理事件时被提前析构，避免 空悬指针
+ */
 void Channel::tie(const std::shared_ptr<void>& obj){
     tie_ = obj;
     tied_ = true;
