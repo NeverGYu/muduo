@@ -5,7 +5,9 @@
 #include "Acceptor.h"
 #include "InetAddress.h"
 #include "nocopyable.h"
-#include "Callbacks.h"
+#include "Callbacks.h" 
+#include "TcpConnection.h"
+#include "Buffer.h"
 
 #include <functional>
 #include <string>
@@ -15,14 +17,14 @@
 
 class TcpServer : nocopyable{
 public:
-    using ThreadInitCallback = std::function<void()>;
+    using ThreadInitCallback = std::function<void(EventLoop*)>;
 
     enum Option{
         kNoReusePort,
         kReusePort,
     };
 
-    TcpServer(EventLoop* loop, const InetAddress& listenAddr, Option option = kNoReusePort);
+    TcpServer(EventLoop* loop, const InetAddress& listenAddr, const std::string &nameArg, Option option = kNoReusePort);
     ~TcpServer();
 
     void setThreadInitCallback(const ThreadInitCallback& cb) { threadInitCallback_ = cb; }
@@ -60,5 +62,5 @@ private:
 
     int nextConnId_;
 
-    ConnectionMap connections;                    /* 保存所有的连接 */
+    ConnectionMap connections_;                    /* 保存所有的连接 */
 };

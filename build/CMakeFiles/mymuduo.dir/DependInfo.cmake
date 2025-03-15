@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gch/muduo/Channel.cc" "CMakeFiles/mymuduo.dir/Channel.cc.o" "gcc" "CMakeFiles/mymuduo.dir/Channel.cc.o.d"
   "/home/gch/muduo/CurrentThread.cc" "CMakeFiles/mymuduo.dir/CurrentThread.cc.o" "gcc" "CMakeFiles/mymuduo.dir/CurrentThread.cc.o.d"
   "/home/gch/muduo/DefaultPoller.cc" "CMakeFiles/mymuduo.dir/DefaultPoller.cc.o" "gcc" "CMakeFiles/mymuduo.dir/DefaultPoller.cc.o.d"
+  "/home/gch/muduo/EpollPoller.cc" "CMakeFiles/mymuduo.dir/EpollPoller.cc.o" "gcc" "CMakeFiles/mymuduo.dir/EpollPoller.cc.o.d"
   "/home/gch/muduo/EventLoop.cc" "CMakeFiles/mymuduo.dir/EventLoop.cc.o" "gcc" "CMakeFiles/mymuduo.dir/EventLoop.cc.o.d"
   "/home/gch/muduo/EventLoopThread.cc" "CMakeFiles/mymuduo.dir/EventLoopThread.cc.o" "gcc" "CMakeFiles/mymuduo.dir/EventLoopThread.cc.o.d"
   "/home/gch/muduo/EventLoopThreadPool.cc" "CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o" "gcc" "CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o.d"
@@ -24,7 +25,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gch/muduo/TcpServer.cc" "CMakeFiles/mymuduo.dir/TcpServer.cc.o" "gcc" "CMakeFiles/mymuduo.dir/TcpServer.cc.o.d"
   "/home/gch/muduo/Thread.cc" "CMakeFiles/mymuduo.dir/Thread.cc.o" "gcc" "CMakeFiles/mymuduo.dir/Thread.cc.o.d"
   "/home/gch/muduo/Timestamp.cc" "CMakeFiles/mymuduo.dir/Timestamp.cc.o" "gcc" "CMakeFiles/mymuduo.dir/Timestamp.cc.o.d"
-  "/home/gch/muduo/ EpollPoller.cc" "CMakeFiles/mymuduo.dir/_EpollPoller.cc.o" "gcc" "CMakeFiles/mymuduo.dir/_EpollPoller.cc.o.d"
   "/home/gch/muduo/muduo_server.cpp" "CMakeFiles/mymuduo.dir/muduo_server.cpp.o" "gcc" "CMakeFiles/mymuduo.dir/muduo_server.cpp.o.d"
   )
 

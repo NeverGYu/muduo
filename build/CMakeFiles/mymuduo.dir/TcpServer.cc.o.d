@@ -205,6 +205,7 @@ CMakeFiles/mymuduo.dir/TcpServer.cc.o: /home/gch/muduo/TcpServer.cc \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /home/gch/muduo/Callbacks.h \
+ /home/gch/muduo/TcpConnection.h /home/gch/muduo/Buffer.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \

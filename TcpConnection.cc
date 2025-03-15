@@ -220,6 +220,7 @@ void TcpConnection::handleWirte(){
     
 }
 
+/* poller => channel::closeCallbak => TcpConnection::handleClose */
 void TcpConnection::handleClose(){
     LOG_INFO("fd = %d state = %d \n",channel_->fd(),state_.load());
     setState(kDisconnected);
@@ -227,7 +228,7 @@ void TcpConnection::handleClose(){
 
     TcpConnectionPtr connPtr(shared_from_this());
     connectionCallback_(connPtr);
-    closeCallback_(connPtr);
+    closeCallback_(connPtr);  /* 关闭连接的回调，是TcpServer::removeConnection 回调方法*/
 }
 
 void TcpConnection::handleError(){

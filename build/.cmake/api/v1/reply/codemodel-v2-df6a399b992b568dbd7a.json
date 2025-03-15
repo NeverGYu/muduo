@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22.1"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mymuduo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mymuduo-Debug-f9d193647538f7c87d82.json",
+					"jsonFile" : "target-mymuduo-119f8796002ae1d1ccbd.json",
 					"name" : "mymuduo",
 					"projectIndex" : 0
 				}

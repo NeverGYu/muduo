@@ -249,6 +249,30 @@ DefaultPoller.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/DefaultPoller.cc.s
 .PHONY : DefaultPoller.cc.s
 
+EpollPoller.o: EpollPoller.cc.o
+.PHONY : EpollPoller.o
+
+# target to build an object file
+EpollPoller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EpollPoller.cc.o
+.PHONY : EpollPoller.cc.o
+
+EpollPoller.i: EpollPoller.cc.i
+.PHONY : EpollPoller.i
+
+# target to preprocess a source file
+EpollPoller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EpollPoller.cc.i
+.PHONY : EpollPoller.cc.i
+
+EpollPoller.s: EpollPoller.cc.s
+.PHONY : EpollPoller.s
+
+# target to generate assembly for a file
+EpollPoller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EpollPoller.cc.s
+.PHONY : EpollPoller.cc.s
+
 EventLoop.o: EventLoop.cc.o
 .PHONY : EventLoop.o
 
@@ -513,30 +537,6 @@ Timestamp.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Timestamp.cc.s
 .PHONY : Timestamp.cc.s
 
-_EpollPoller.o: _EpollPoller.cc.o
-.PHONY : _EpollPoller.o
-
-# target to build an object file
-_EpollPoller.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/_EpollPoller.cc.o
-.PHONY : _EpollPoller.cc.o
-
-_EpollPoller.i: _EpollPoller.cc.i
-.PHONY : _EpollPoller.i
-
-# target to preprocess a source file
-_EpollPoller.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/_EpollPoller.cc.i
-.PHONY : _EpollPoller.cc.i
-
-_EpollPoller.s: _EpollPoller.cc.s
-.PHONY : _EpollPoller.s
-
-# target to generate assembly for a file
-_EpollPoller.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/_EpollPoller.cc.s
-.PHONY : _EpollPoller.cc.s
-
 muduo_server.o: muduo_server.cpp.o
 .PHONY : muduo_server.o
 
@@ -585,6 +585,9 @@ help:
 	@echo "... DefaultPoller.o"
 	@echo "... DefaultPoller.i"
 	@echo "... DefaultPoller.s"
+	@echo "... EpollPoller.o"
+	@echo "... EpollPoller.i"
+	@echo "... EpollPoller.s"
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
@@ -618,9 +621,6 @@ help:
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"
-	@echo "... _EpollPoller.o"
-	@echo "... _EpollPoller.i"
-	@echo "... _EpollPoller.s"
 	@echo "... muduo_server.o"
 	@echo "... muduo_server.i"
 	@echo "... muduo_server.s"
